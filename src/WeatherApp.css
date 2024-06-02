@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    overflow-y: scroll; overflow-x: hidden;
+}
+
+h1 {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    font-size: 3rem;
+    height: 3.5rem;
+    width: 100%;
+    color: white;
+    background-color: #4D243D;
+    padding: 10px;
+}

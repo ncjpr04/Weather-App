@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.InfoBox {
+    text-align: center;
+}
+
+.infoElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    margin: auto;
+
+}
+
+.infoElement {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color: #4D243D;
+    border-radius: 5px;
+    height: 5rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+
+.city-name {
+    padding: auto;
+    font-size: 40px;
+    top: 0;
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background-color: #4D243D;
+
+}
+
+.temp-icon svg {
+    width: 50px;
+    height: 50px;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    box-shadow: 0px 5px 10px rgba(81, 81, 81, 0.488);
+}
+
+.card-content {
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #4d243d9f;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-direction: column;
+    overflow: auto;
+    box-shadow: 0px 5px 10px rgba(81, 81, 81, 0.488);
+}
+
+.card {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.main-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#last-box {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-card {
+        justify-content: space-evenly;
+    }
+
+    .card {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 90vh;
+        overflow: auto;
+    }
+
+    .infoElements {
+        height: fit-content;
+    }
+
+    .image {
+        width: 100%;
+        max-height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card-content {
+        margin-right: 0px;
+        width: 100%;
+        height: fit-content;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
